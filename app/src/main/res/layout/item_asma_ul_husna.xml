@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/purple_500"
+    android:layout_margin="5dp"
+    android:elevation="20dp"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RL2"
+            android:padding="6dp"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/asmurd"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="AL-Rehman"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/asmend"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Al-Raheem"
+            android:textColor="#fff"
+            android:layout_below="@id/RL2"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold
+"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
